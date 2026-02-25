@@ -1,0 +1,25 @@
+/* Table.scss */
+
+.tableBorder {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5e5e5;
+  font-family: Arial, sans-serif;
+}
+
+.tableBorder th,
+.tableBorder td {
+  border: 1px solid #e5e5e5;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.tableBorder th {
+  background-color: #fafafa;
+  font-weight: 600;
+  text-align: left;
+}
+
+.tableBorder tbody tr:last-child td {
+  font-weight: bold;
+}
